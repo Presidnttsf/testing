@@ -1,1 +1,2 @@
-console.log("Hello ")
+import { sum } from "./func/sum-two-num.js";
+
