@@ -1,0 +1,23 @@
+{
+  "name": "js-functions",
+  "version": "1.0.0",
+  "description": "Collection of Javascript functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwar069/js-functions.git"
+  },
+  "keywords": [
+    "Javascript",
+    "functions"
+  ],
+  "author": "Ahmed Anwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anwar069/js-functions/issues"
+  },
+  "homepage": "https://github.com/anwar069/js-functions#readme"
+}
