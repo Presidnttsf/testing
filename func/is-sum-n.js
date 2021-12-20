@@ -1,11 +1,9 @@
-function isSum(a, b, n) {
-    let n = 0;
-
+export function isSum(a, b, n) {
 
     if (a + b == n) {
         return true
 
-    } else false;
+    } else return false;
 
 };
 
