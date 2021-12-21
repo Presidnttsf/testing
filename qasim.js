@@ -1,16 +1,37 @@
 ///////area of circle vs area od square
 
-export function aocVsAos(params) {
+export function aocVsAos(x) {
+
+
+    function aoc(d) {
+        let ans1 = 3.14 * 0.25 * d * d;
+        return ans1;
+    }
+    console.log(aoc(3));
+
+    function aos(a) {
+        let ans2 = a * a;
+        return ans2;
+    }
+    console.log(aos(5))
+
+    if (ans1 > ans2) {
+        return aoc;
+
+    } else {
+
+        return aos;
+
+    }
 
 }
 
-function aoc(d) {
-    return 3.14 * 0.25 * d * d;
-}
-console.log(aoc(3))
+console.log(aocVsAos());
 
-function aos(a) {
-    return a * a
-}
-console.log(aos(5))
 
+
+function acVsAs(params) {
+
+
+
+}
