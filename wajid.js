@@ -1,2 +1,5 @@
 import { numberBetween } from "./func/numberbetween.js";
-console.log(numberBetween(1, 10))
+import { numberIsEven } from "./func/numberEven.js";
+
+// console.log(numberBetween(1, 10))
+console.log(numberIsEven(7));
