@@ -1,4 +1,5 @@
-import { PON } from "./power-of-num.js";
+import { PowerOfNumber } from "./power-of-num.js";
+
 export function switchcombinations(n) {
-    return PON(2, n);
+    return PowerOfNumber(2, n);
 }
