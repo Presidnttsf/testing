@@ -14,4 +14,4 @@ import { circleVSsquare } from "./func/diameter-side.js";
 // console.log("prime=", isPrime(27));
 // console.log(areaofCircle(2));
 // console.log(findLegs(4, 8, 6));
-console.log(circleVSsquare(4, 16));
+console.log(circleVSsquare(40, 16));
