@@ -2,7 +2,7 @@ import { areaofCircle } from "./areaofCircle.js"
 import { areaofsquar } from "./areofsquar.js";
 
 export function circleVSsquare(d, s) {
-    let AOC = areaofCircle(d * 1 / 2);
+    let AOC = areaofCircle(d / 2);
     let AOS = areaofsquar(s);
     console.log("AOC = ", AOC, 'AOS = ', AOS)
 

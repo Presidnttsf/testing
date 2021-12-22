@@ -1,6 +1,7 @@
 export function coffeCup(x) {
-
-    return x * 0.25
-
+    let res = {
+        total: x * 1.25,
+        extra: x * 0.25
+    }
+    return res;
 }
-console.log(coffeCup(20), 'coffe is extra  thank you  visit again')          
