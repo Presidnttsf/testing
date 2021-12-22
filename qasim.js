@@ -42,3 +42,6 @@
 // import { coffeCup } from "./func/extra-cofee.js";
 
 // console.log(coffeCup(10));
+
+import { isPrime } from "./func/find-prime-num.js";
+console.log(isPrime(20))
