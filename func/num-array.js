@@ -1,7 +1,14 @@
 export function numArr(num) {
-    let array = num;
-    let arrDigit = Array.from(String(array), Number);
-    return arrDigit
+    let ans = [];
+    while (num > 0) {
+        let r = num % 10
+        ans.unshift(r)
+
+        num = Math.floor(num / 10)
+
+    }
+    return ans;
 }
 
-//please explian what Number is doing.
+
+
