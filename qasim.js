@@ -1,5 +1,7 @@
 // ///////area of circle vs area od square
 
+// import { getOperation } from "./func/get-Operation"
+
 // export function aocVsAos(x) {
 
 
@@ -34,4 +36,12 @@
 
 
 // }
+// import { getOperation } from "./func/get-Operation.js";
+// console.log(getOperation(5, 3, 2));
 
+// import { coffeCup } from "./func/extra-cofee.js";
+
+// console.log(coffeCup(10));
+
+import { isPrime } from "./func/find-prime-num.js";
+console.log(isPrime(20))
