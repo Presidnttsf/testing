@@ -1,4 +1,9 @@
-
+/**
+ * 
+ * @param {number} a 
+ * @returns number
+ * 
+ */
 
 
 export function cirVsSqr(a) {
