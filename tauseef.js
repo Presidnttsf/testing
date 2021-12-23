@@ -25,4 +25,4 @@ import { numArr } from "./func/num-array.js";
 // console.log(PowerOfNumber(2, 10));
 // console.log(RotateArray([1, 2, 3, 4, 5]));
 // console.log(RotateArray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]));
-console.log(numArr(35894));
+console.log(numArr(1234567890));
