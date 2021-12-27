@@ -1,10 +1,10 @@
 export function numberIsOdd(a) {
     let num = a % 2
     if (num == 0) {
-        console.log("The number is not Odd.");
+        return false;
     }
     else {
-        console.log("The number is Odd");
+        return true;
     }
-    return num;
+
 }
