@@ -34,4 +34,4 @@ import { cumulativeSum } from "./func/cumulative-sum.js";
 // console.log('Narcistic', NarNum(371));
 // console.log(checkPalindrome("redividers"));
 // console.log(checkPalindrome("redividers"));
-console.log(cumulativeSum(2, 3));
+console.log(cumulativeSum(22, 10));
