@@ -8,7 +8,7 @@ export function NarNum(num) {
         const element = ans[index];
 
         sum = sum + PowerOfNumber(element, ans.length)
-
+        console.log(sum)
     }
     if (sum === num) {
         return true

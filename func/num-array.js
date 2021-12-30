@@ -7,6 +7,8 @@ export function numArr(num) {
         num = Math.floor(num / 10)
 
     }
+
+
     return ans;
 }
 
