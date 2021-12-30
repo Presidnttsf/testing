@@ -1,9 +1,12 @@
 export function checkPalindrome(text) {
     let arr = text.split('');
-    for (let index = 0; index < arr.length; index++) {
+
+    for (let index = 0; index < Math.floor(arr.length / 2); index++) {
         let start = arr[index];
+
         let end = arr[arr.length - 1 - index]
         if (start != end) {
+            console.log(start, end)
             return 'It is not palindrome'
         }
     }
