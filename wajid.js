@@ -11,4 +11,5 @@ import { numberBetweenPrime } from "./func/num-between-prime.js";
 
 import { switchcombinations } from "./func/switchcombination.js";
 // console.log(numberBetween(1, 10))
-console.log(numberBetweenPrime(2, 10))
+// console.log(numberBetweenPrime(2, 10))
+import { } from "module";
