@@ -3,7 +3,7 @@
  * @param {Number} r Radius
  * @returns Number Area of the circle
  */
-export function areaofCircle(r) {
+export function areaofCircle(d) {
     let pie = 3.14159265359;
-    return pie * (r * r);
+    return pie * (d * d * 0.25);
 };
