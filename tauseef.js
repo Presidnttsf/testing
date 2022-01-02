@@ -20,6 +20,8 @@ import { arrSum } from "./func/sumOfArray.js";
 import { numberBetweenPrime } from "./func/num-between-prime.js";
 import { ElementSum } from "./func/sumOfElements.js";
 import { ElementAvg } from "./func/avg-of-elements.js";
+import { getObject } from "./func/get-object.js";
+import { SortedArr } from "./func/array-sort.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -45,4 +47,8 @@ import { ElementAvg } from "./func/avg-of-elements.js";
 // console.log(EvenOddString('1234567890'))
 // console.log(arrSum([5, 2, 1], [1, 4, 5]));
 // console.log(ElementSum([5, 2, 1, 5, 4, 8, 7, 8, ' is the sum of all given number in the array']));
-console.log(ElementAvg([5, 2, 1, 5, 4, 8, 7, 8]));
+// console.log(ElementAvg([5, 2, 1, 5, 4, 8, 7]), "this is average");
+// console.log(getObject('Tauseef Akhtar', 29, 'Nagpur', 7, 9021980236));
+// console.log(getObject('Tauseef Akhtar', 29, 'Nagpur', 7, 9021980236));
+console.log(SortedArr('9021980236'.split('')));
+console.log(SortedArr([5, 6, 8, 7, 8, 5, 5, 2]))
