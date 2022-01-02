@@ -22,6 +22,7 @@ import { ElementSum } from "./func/sumOfElements.js";
 import { ElementAvg } from "./func/avg-of-elements.js";
 import { getObject } from "./func/get-object.js";
 import { SortedArr } from "./func/array-sort.js";
+import { BubbleSorted } from "./func/bubble-sort.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -50,5 +51,6 @@ import { SortedArr } from "./func/array-sort.js";
 // console.log(ElementAvg([5, 2, 1, 5, 4, 8, 7]), "this is average");
 // console.log(getObject('Tauseef Akhtar', 29, 'Nagpur', 7, 9021980236));
 // console.log(getObject('Tauseef Akhtar', 29, 'Nagpur', 7, 9021980236));
-console.log(SortedArr('9021980236'.split('')));
-console.log(SortedArr([5, 6, 8, 7, 8, 5, 5, 2]))
+// console.log(SortedArr('9021980236'.split('')));
+// console.log(SortedArr([5, 6, 8, 7, 8, 5, 5, 2]))
+console.log(BubbleSorted([5, 6, 4, 8, 7, 9, 8, 3]))
