@@ -52,5 +52,7 @@ import { BubbleSorted } from "./func/bubble-sort.js";
 // console.log(getObject('Tauseef Akhtar', 29, 'Nagpur', 7, 9021980236));
 // console.log(getObject('Tauseef Akhtar', 29, 'Nagpur', 7, 9021980236));
 // console.log(SortedArr('9021980236'.split('')));
-// console.log(SortedArr([5, 6, 8, 7, 8, 5, 5, 2]))
-console.log(BubbleSorted([5, 6, 4, 8, 7, 9, 8, 3]))
+// console.log(SortedArr([3, 6, 8, 7, 8, 5, 9, 2]))
+console.log(BubbleSorted([5, 6, 4, 2, 7, 9, 8, 3]))
+
+
