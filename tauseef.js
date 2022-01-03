@@ -55,6 +55,6 @@ import { SelectSort } from "./func/selection-sort.js";
 // console.log(SortedArr('9021980236'.split('')));
 // console.log(SortedArr([3, 6, 8, 7, 8, 5, 9, 2]))
 // console.log(BubbleSorted([5, 6, 4, 2, 7, 9, 8, 3]))
-console.log('This is selection sort', SelectSort([5, 6, 4, 2, 7, 9, 8, 3]))
+console.log('This is selection sort', BubbleSorted([5, 6, 4, 2,]))
 
 
