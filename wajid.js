@@ -8,8 +8,28 @@ import { EvenOddString } from "./func/even-Odd-String.js";
 import { coffeCup } from "./func/extra-cofee.js";
 import { getOperation } from "./func/get-Operation.js";
 import { numberBetweenPrime } from "./func/num-between-prime.js";
+import { cumulativeSum } from "./func/cumulative-sum.js";
 
 import { switchcombinations } from "./func/switchcombination.js";
 // console.log(numberBetween(1, 10))
-// console.log(numberBetweenPrime(2, 10))
-import { } from "module";
+console.log(cumulativeSum(2, 10))
+
+
+
+
+
+
+
+
+
+function reverseNum(n) {
+    let out = 0;
+    while (n > 0) {
+        let num = n % 10;
+
+
+    }
+
+
+}
+console.log(reverseNum(1234))
