@@ -10,9 +10,10 @@ import { getOperation } from "./func/get-Operation.js";
 import { numberBetweenPrime } from "./func/num-between-prime.js";
 import { cumulativeSum } from "./func/cumulative-sum.js";
 import { selectionSort } from "./func/seclection-sort.js";
+import { BubbleSorted } from "./func/bubble-sort.js";
 
 
 import { switchcombinations } from "./func/switchcombination.js";
 // import { selectionSort } from "./func/seclection-sort.js";
 // console.log(numberBetween(1, 10))
-console.log(selectionSort([2, 4, 3, 8, 4, 6, 5], 1))
+console.log(BubbleSorted([2, 4, 3, 8, 4, 6, 5], 1))
