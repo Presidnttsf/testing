@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/anwar069/js-functions/issues"
   },
-  "homepage": "https://github.com/anwar069/js-functions#readme"
+  "homepage": "https://github.com/anwar069/js-functions#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
