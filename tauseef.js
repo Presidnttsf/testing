@@ -25,6 +25,12 @@ import { SortedArr } from "./func/array-sort.js";
 import { BubbleSorted } from "./func/bubble-sort.js";
 import { SelectSort } from "./func/selection-sort.js";
 import { Encrypt, Decrypt } from "./func/encrypt-decrypt.js";
+import { promptTest } from "./func/prompt-test.js";
+import { findLonely } from "./func/lonelynum.js";
+import { RemoveDup, RemoveDupSet } from "./func/removeduplicates.js";
+import { CountIn } from "./func/countInArray.js";
+import { simCheck } from "./func/sim-check.js";
+
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -57,9 +63,13 @@ import { Encrypt, Decrypt } from "./func/encrypt-decrypt.js";
 // console.log(SortedArr([3, 6, 8, 7, 8, 5, 9, 2]))
 // console.log(BubbleSorted([5, 6, 4, 3]))
 // console.log('This is selection sort', SelectSort([5, 6, 4, 2,]))
-console.log(Encrypt('tauseef', 3))
+// console.log(Encrypt('tauseef', 3))
 
-let encryptout = Encrypt('tauseef', 3);
-console.log(Decrypt(encryptout, 3))
-
-
+// let encryptout = Encrypt('tauseef', 3);
+// console.log(Decrypt(encryptout, 3))
+// console.log(promptTest())
+// console.log(findLonely([-5, 6, 4, 3, -6, -4, 5]))
+// console.log(RemoveDup([5, 6, 4, 3, 6, 4, 5]))
+// console.log(RemoveDupSet([5, 6, 4, 3, 6, 4, 5, 9, 8, 6, 5, 1]))
+// console.log(CountIn([5, 6, 4, 3, 6, 4, 5, 9, 8, 6, 5, 1, 8, 7, 8, 8], 8))
+console.log(simCheck())
