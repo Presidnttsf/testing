@@ -8,7 +8,7 @@ export function SelectSort(arr) {
                 arr[j] = arr[index]
                 arr[index] = temp
             }
-            console.log('j', j, 'i', index, 'arr -> ', arr.toString());
+            // console.log('j', j, 'i', index, 'arr -> ', arr.toString());
         }
 
     }
