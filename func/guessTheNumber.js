@@ -1,6 +1,7 @@
 import prompt_sync from "prompt-sync";
 const prompt = prompt_sync({ sigint: true });
 
+
 export function GuessNum() {
     let O = 50;
     let m = Math.floor(Math.random() * O);
