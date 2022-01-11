@@ -1,9 +1,16 @@
+import { RemoveDup } from "./removeduplicates.js";
+import { arrSum } from "./sumOfArray.js";
+
 export function findLonely(arr) {
-    let single = 0;
-    for (let i = 0; i < arr.length; i++)
-        single = single ^ arr[i];
-    return single;
+
+    for (let index = 0; index < arr.length; index++) {
+        const element = arr[index]
+        let n = (element * -1);
+        if (arr.indexOf(n) === -1)
+            return element;
+
+    }
+
 }
 
 
-/*single = single ^ arr[i]; plz explain this line*/
