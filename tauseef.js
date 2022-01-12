@@ -30,7 +30,11 @@ import { findLonely } from "./func/lonelynum.js";
 import { RemoveDup, RemoveDupSet } from "./func/removeduplicates.js";
 import { CountIn } from "./func/countInArray.js";
 import { simCheck } from "./func/sim-check.js";
-
+import { GuessNum } from "./func/guessTheNumber.js";
+import { DOY } from "./func/findDoy.js";
+import { USERDATA } from "./data.js";
+import { printFullName } from "./user-func/displayfullname.js";
+import { printGenderWise } from "./user-func/display-by-gender.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -68,8 +72,13 @@ import { simCheck } from "./func/sim-check.js";
 // let encryptout = Encrypt('tauseef', 3);
 // console.log(Decrypt(encryptout, 3))
 // console.log(promptTest())
-// console.log(findLonely([-5, 6, 4, 3, -6, -4, 5]))
-console.log(RemoveDup([5, 6, 4, 3, 6, 4, 5, 6, 1, 2, 5]))
+// console.log(findLonely([-5, 6, 4, 3, -6, -4, 5, 15, -14, 14, -15, 2]))
+// console.log(RemoveDup([5, 6, 4, 3, 6, 4, 5, 6, 1, 2, 5]))
 // console.log(RemoveDupSet([5, 6, 4, 3, 6, 4, 5, 9, 8, 6, 5, 1]))
 // console.log(CountIn([5, 6, 4, 3, 6, 4, 5, 9, 8, 6, 5, 1, 8, 7, 8, 8], 8))
 // console.log(simCheck())
+// console.log(GuessNum())
+// console.log(DOY())
+// console.log(printFullName(USERDATA[40]))
+let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
+console.log(filteredUsers)

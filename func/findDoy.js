@@ -4,7 +4,8 @@ const prompt = prompt_sync({ sigint: true });
 
 export function DOY() {
     const count = prompt('Enter the number of user: ');
-
+    if (count == 0)
+        return "invalid"
     let userFullDetails = [];
     for (let index = 0; index < count; index++) {
         const userName = prompt("Enter name of user " + (index + 1) + ": ");

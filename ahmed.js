@@ -6,4 +6,4 @@ import { promptTest } from "./func/prompt-test.js";
 import { USERDATA } from "./data.js";
 
 
-console.log('User Data', USERDATA[1])
+console.log('User Data', USERDATA[1].first_name)
