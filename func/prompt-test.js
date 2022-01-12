@@ -6,8 +6,12 @@ const prompt = prompt_sync({ sigint: true });
 export function promptTest() {
     const count = prompt("Enter Number of users : ");
     console.log('Number of User : ', count);
+    let out = [];
+
     for (let index = 0; index < count; index++) {
         const userName = prompt("Enter name of user " + (index + 1) + ": ");
-        console.log('User name is', userName);
+        const age = prompt("Enter " + userName + "'s age : ");
+        const today = new Date();
+        console.log('User name is', userName, age, today.getFullYear() - Number(age));
     }
 }
