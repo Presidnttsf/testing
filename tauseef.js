@@ -35,6 +35,10 @@ import { DOY } from "./func/findDoy.js";
 import { USERDATA } from "./data.js";
 import { printFullName } from "./user-func/displayfullname.js";
 import { printGenderWise } from "./user-func/display-by-gender.js";
+import { printEmail } from "./user-func/printEmail.js";
+import { SingleUserFullName } from "./user-func/printUserFn.js";
+import { pritnKey } from "./user-func/printByKey.js";
+import { getUniqueDomain } from "./user-func/get-unique-domain.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -79,6 +83,72 @@ import { printGenderWise } from "./user-func/display-by-gender.js";
 // console.log(simCheck())
 // console.log(GuessNum())
 // console.log(DOY())
-// console.log(printFullName(USERDATA[40]))
+// console.log(printFullName(USERDATA))
+// let count = printFullName(USERDATA)
+// console.log(count.length)
+// console.log(SingleUserFullName(USERDATA[0]))
 let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
-console.log(filteredUsers)
+// console.log(filteredUsers)
+
+
+// let emailCountcom = printEmail(USERDATA, '.com')
+// console.log('1.com count= ', emailCountcom.length)
+// let emailCountnet = printEmail(USERDATA, '.net')
+// console.log('2.net count= ', emailCountnet.length)
+// let emailCountcn = printEmail(USERDATA, '.cn')
+// console.log('3.cn count= ', emailCountcn.length)
+// let emailCountgov = printEmail(USERDATA, '.gov')
+// console.log('4.gov count= ', emailCountgov.length)
+// let emailCountuk = printEmail(USERDATA, '.uk')
+// console.log('5.uk count= ', emailCountuk.length)
+// let emailCountedu = printEmail(USERDATA, '.edu')
+// console.log('6.edu count= ', emailCountedu.length)
+// let emailCountcouk = printEmail(USERDATA, '.co.uk')
+// console.log('7.co.uk count= ', emailCountcouk.length)
+// let emailCountru = printEmail(USERDATA, '.ru')
+// console.log('8.ru count= ', emailCountru.length)
+// let emailCountio = printEmail(USERDATA, '.io')
+// console.log('9.io count= ', emailCountio.length)
+// let emailCountorg = printEmail(USERDATA, '.org')
+// console.log('10.org count= ', emailCountorg.length)
+// let emailCountgovau = printEmail(USERDATA, '.gov.au')
+// console.log('11.gov.au count= ', emailCountgovau.length)
+// let emailCountcz = printEmail(USERDATA, '.cz')
+// console.log('12.cz count= ', emailCountcz.length)
+// let emailCountjp = printEmail(USERDATA, '.jp')
+// console.log('13.jp count= ', emailCountjp.length)
+// let emailCountcojp = printEmail(USERDATA, '.co.jp')
+// console.log('14.co.jp count= ', emailCountcojp.length)
+// let emailCountgd = printEmail(USERDATA, '.gd')
+// console.log('15.gd count= ', emailCountgd.length)
+// let emailCountfm = printEmail(USERDATA, '.fm')
+// console.log('16.fm count= ', emailCountfm.length)
+// let emailCountde = printEmail(USERDATA, '.de')
+// console.log('17.de count= ', emailCountde.length)
+// let emailCountit = printEmail(USERDATA, '.it')
+// console.log('18.it count= ', emailCountit.length)
+// let emailCountla = printEmail(USERDATA, '.la')
+// console.log('19.la count= ', emailCountla.length)
+
+
+// let total = [(emailCountcn.length + emailCountcom.length + emailCountnet.length + emailCountgov.length + emailCountuk.length + emailCountedu.length + emailCountru.length + emailCountio.length + emailCountorg.length + emailCountgovau.length + emailCountcz.length + emailCountjp.length + emailCountcojp.length + emailCountgd.length + emailCountfm.length + emailCountde.length + emailCountit.length + emailCountla.length)]
+// console.log('total = ', total)
+
+// console.log(printEmail(USERDATA, '.co.uk'))
+// console.log('7.co.uk count= ', emailCountcouk.length)
+
+// console.log(pritnKey(USERDATA, "gender"))
+// let filteredGender = pritnKey(USERDATA, "gender")
+// console.log(RemoveDup(filteredGender))
+// let countOfFG = ;
+
+
+
+// console.log(pritnKey(USERDATA, "gender"))
+// console.log([...getUniqueDomain(USERDATA)])
+let arr = [...getUniqueDomain(USERDATA)];
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    console.log(element, ':', printEmail(USERDATA, element).length);
+}
+// console.log(uniquekey.length)
