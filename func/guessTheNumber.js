@@ -3,7 +3,7 @@ const prompt = prompt_sync({ sigint: true });
 
 
 export function GuessNum() {
-    let O = 50;
+    let O = 10;
     let m = Math.floor(Math.random() * O);
     console.log(m)
     for (let index = 0; index < 3; index++) {
@@ -16,9 +16,9 @@ export function GuessNum() {
         if (n < m)
             console.log('You guess the smaller number', 'you have', 2 - index, 'chance left')
         if (n == m) {
-            console.log('Congratulations!!! You WON the game')
+            return 'Congratulations!!! You WON the game'
         }
-        return
+
     }
     console.log('Unfortunately!!! You losse the game')
 
