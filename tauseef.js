@@ -39,6 +39,7 @@ import { printEmail } from "./user-func/printEmail.js";
 import { SingleUserFullName } from "./user-func/printUserFn.js";
 import { pritnKey } from "./user-func/printByKey.js";
 import { getUniqueDomain } from "./user-func/get-unique-domain.js";
+import { printOperator } from "./user-func/printByOperator.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -137,7 +138,7 @@ let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
 // console.log(printEmail(USERDATA, '.co.uk'))
 // console.log('7.co.uk count= ', emailCountcouk.length)
 
-// console.log(pritnKey(USERDATA, "gender"))
+// console.log(pritnKey(USERDATA, "email"))
 // let filteredGender = pritnKey(USERDATA, "gender")
 // console.log(RemoveDup(filteredGender))
 // let countOfFG = ;
@@ -147,8 +148,22 @@ let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
 // console.log(pritnKey(USERDATA, "gender"))
 // console.log([...getUniqueDomain(USERDATA)])
 let arr = [...getUniqueDomain(USERDATA)];
+let total = 0;
+
 for (let index = 0; index < arr.length; index++) {
     const element = arr[index];
-    console.log(element, ':', printEmail(USERDATA, element).length);
+    let out = printEmail(USERDATA, element);
+    // console.log(element, ':', out.length);
+    total += out.length
+
+
 }
-// console.log(uniquekey.length)
+// console.log(total)
+
+// let CheckArr = [9, 64, 25]
+// let newArr = CheckArr.map(Math.sqrt)
+// console.log(newArr)
+
+console.log(printOperator(USERDATA, 'bsnl'))
+let countOperator = printOperator(USERDATA, 'bsnl')
+console.log(countOperator.length)
