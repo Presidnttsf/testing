@@ -40,6 +40,7 @@ import { SingleUserFullName } from "./user-func/printUserFn.js";
 import { pritnKey } from "./user-func/printByKey.js";
 import { getUniqueDomain } from "./user-func/get-unique-domain.js";
 import { printOperator } from "./user-func/printByOperator.js";
+import { areBracketsBalanced } from "./func/bracketCheck.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -164,6 +165,29 @@ for (let index = 0; index < arr.length; index++) {
 // let newArr = CheckArr.map(Math.sqrt)
 // console.log(newArr)
 
-console.log(printOperator(USERDATA, 'bsnl'))
-let countOperator = printOperator(USERDATA, 'bsnl')
-console.log(countOperator.length)
+// console.log(printOperator(USERDATA, 'bsnl'))
+// let countOperator = printOperator(USERDATA, 'bsnl')
+// console.log(countOperator.length)
+
+console.log(areBracketsBalanced('[(){[]}]'));
+
+// let array1 = [1, 2, 3];
+
+// for (let i in array1) {
+    // console.log(i);
+// }
+
+// let arr2 = [-4, -5, -7, -3, 8, 19];
+// let max = arr2[0];
+// for (let index = 0; index < arr2.length; index++) {
+//     const element = arr2[index];
+//     if (element > max)
+//         max = element
+
+// }
+// console.log(max)
+// for (let index = 0; index < array1.length; index++) {
+//     console.log(index)
+
+// }
+// console.log(array1)
