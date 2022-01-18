@@ -35,6 +35,12 @@ import { DOY } from "./func/findDoy.js";
 import { USERDATA } from "./data.js";
 import { printFullName } from "./user-func/displayfullname.js";
 import { printGenderWise } from "./user-func/display-by-gender.js";
+import { printEmail } from "./user-func/printEmail.js";
+import { SingleUserFullName } from "./user-func/printUserFn.js";
+import { pritnKey } from "./user-func/printByKey.js";
+import { getUniqueDomain } from "./user-func/get-unique-domain.js";
+import { printOperator } from "./user-func/printByOperator.js";
+import { areBracketsBalanced } from "./func/bracketCheck.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -81,4 +87,104 @@ import { printGenderWise } from "./user-func/display-by-gender.js";
 // console.log(DOY())
 // console.log(printFullName(USERDATA[40]))
 let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
-console.log(filteredUsers)
+// console.log(filteredUsers)
+
+
+// let emailCountcom = printEmail(USERDATA, '.com')
+// console.log('1.com count= ', emailCountcom.length)
+// let emailCountnet = printEmail(USERDATA, '.net')
+// console.log('2.net count= ', emailCountnet.length)
+// let emailCountcn = printEmail(USERDATA, '.cn')
+// console.log('3.cn count= ', emailCountcn.length)
+// let emailCountgov = printEmail(USERDATA, '.gov')
+// console.log('4.gov count= ', emailCountgov.length)
+// let emailCountuk = printEmail(USERDATA, '.uk')
+// console.log('5.uk count= ', emailCountuk.length)
+// let emailCountedu = printEmail(USERDATA, '.edu')
+// console.log('6.edu count= ', emailCountedu.length)
+// let emailCountcouk = printEmail(USERDATA, '.co.uk')
+// console.log('7.co.uk count= ', emailCountcouk.length)
+// let emailCountru = printEmail(USERDATA, '.ru')
+// console.log('8.ru count= ', emailCountru.length)
+// let emailCountio = printEmail(USERDATA, '.io')
+// console.log('9.io count= ', emailCountio.length)
+// let emailCountorg = printEmail(USERDATA, '.org')
+// console.log('10.org count= ', emailCountorg.length)
+// let emailCountgovau = printEmail(USERDATA, '.gov.au')
+// console.log('11.gov.au count= ', emailCountgovau.length)
+// let emailCountcz = printEmail(USERDATA, '.cz')
+// console.log('12.cz count= ', emailCountcz.length)
+// let emailCountjp = printEmail(USERDATA, '.jp')
+// console.log('13.jp count= ', emailCountjp.length)
+// let emailCountcojp = printEmail(USERDATA, '.co.jp')
+// console.log('14.co.jp count= ', emailCountcojp.length)
+// let emailCountgd = printEmail(USERDATA, '.gd')
+// console.log('15.gd count= ', emailCountgd.length)
+// let emailCountfm = printEmail(USERDATA, '.fm')
+// console.log('16.fm count= ', emailCountfm.length)
+// let emailCountde = printEmail(USERDATA, '.de')
+// console.log('17.de count= ', emailCountde.length)
+// let emailCountit = printEmail(USERDATA, '.it')
+// console.log('18.it count= ', emailCountit.length)
+// let emailCountla = printEmail(USERDATA, '.la')
+// console.log('19.la count= ', emailCountla.length)
+
+
+// let total = [(emailCountcn.length + emailCountcom.length + emailCountnet.length + emailCountgov.length + emailCountuk.length + emailCountedu.length + emailCountru.length + emailCountio.length + emailCountorg.length + emailCountgovau.length + emailCountcz.length + emailCountjp.length + emailCountcojp.length + emailCountgd.length + emailCountfm.length + emailCountde.length + emailCountit.length + emailCountla.length)]
+// console.log('total = ', total)
+
+// console.log(printEmail(USERDATA, '.co.uk'))
+// console.log('7.co.uk count= ', emailCountcouk.length)
+
+// console.log(pritnKey(USERDATA, "email"))
+// let filteredGender = pritnKey(USERDATA, "gender")
+// console.log(RemoveDup(filteredGender))
+// let countOfFG = ;
+
+
+
+// console.log(pritnKey(USERDATA, "gender"))
+// console.log([...getUniqueDomain(USERDATA)])
+let arr = [...getUniqueDomain(USERDATA)];
+let total = 0;
+
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    let out = printEmail(USERDATA, element);
+    // console.log(element, ':', out.length);
+    total += out.length
+
+
+}
+// console.log(total)
+
+// let CheckArr = [9, 64, 25]
+// let newArr = CheckArr.map(Math.sqrt)
+// console.log(newArr)
+
+// console.log(printOperator(USERDATA, 'bsnl'))
+// let countOperator = printOperator(USERDATA, 'bsnl')
+// console.log(countOperator.length)
+
+console.log(areBracketsBalanced('[(){[]}]'));
+
+// let array1 = [1, 2, 3];
+
+// for (let i in array1) {
+    // console.log(i);
+// }
+
+// let arr2 = [-4, -5, -7, -3, 8, 19];
+// let max = arr2[0];
+// for (let index = 0; index < arr2.length; index++) {
+//     const element = arr2[index];
+//     if (element > max)
+//         max = element
+
+// }
+// console.log(max)
+// for (let index = 0; index < array1.length; index++) {
+//     console.log(index)
+
+// }
+// console.log(array1)
