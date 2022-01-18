@@ -41,6 +41,8 @@ import { pritnKey } from "./user-func/printByKey.js";
 import { getUniqueDomain } from "./user-func/get-unique-domain.js";
 import { printOperator } from "./user-func/printByOperator.js";
 import { areBracketsBalanced } from "./func/bracketCheck.js";
+import { checkBrackets } from "./func/bracketByObject.js";
+import { BrCheckAmd } from "./func/BracketCheckAmd.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -169,12 +171,16 @@ for (let index = 0; index < arr.length; index++) {
 // let countOperator = printOperator(USERDATA, 'bsnl')
 // console.log(countOperator.length)
 
+<<<<<<< HEAD
 console.log(areBracketsBalanced('()'));
+=======
+// console.log(areBracketsBalanced('[(){[]}]'));
+>>>>>>> d800e5a6d71cb3c3aa37f790aad31204e7438175
 
 // let array1 = [1, 2, 3];
 
 // for (let i in array1) {
-    // console.log(i);
+// console.log(i);
 // }
 
 // let arr2 = [-4, -5, -7, -3, 8, 19];
@@ -191,3 +197,27 @@ console.log(areBracketsBalanced('()'));
 
 // }
 // console.log(array1)
+
+console.log(checkBrackets(`function comperator(a, b) {
+    return a - b;
+};
+
+export function SortedArr(arr) {
+    let sortedarray = arr.sort(comperator);
+    return sortedarray;
+};
+
+
+`))
+// console.log(areBracketsBalanced('({(    )})'))
+// // console.log(BrCheckAmd(`function comperator(a, b) {
+//     return a - b;
+// };
+
+// export function SortedArr(arr) {
+//     let sortedarray = arr.sort(comperator);
+//     return sortedarray;
+// };
+
+
+// `));
