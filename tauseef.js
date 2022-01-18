@@ -169,7 +169,7 @@ for (let index = 0; index < arr.length; index++) {
 // let countOperator = printOperator(USERDATA, 'bsnl')
 // console.log(countOperator.length)
 
-console.log(areBracketsBalanced('[(){[]}]'));
+console.log(areBracketsBalanced('()'));
 
 // let array1 = [1, 2, 3];
 
