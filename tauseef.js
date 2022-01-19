@@ -43,6 +43,7 @@ import { printOperator } from "./user-func/printByOperator.js";
 import { areBracketsBalanced } from "./func/bracketCheck.js";
 import { checkBrackets } from "./func/bracketByObject.js";
 import { BrCheckAmd } from "./func/BracketCheckAmd.js";
+import { printBill } from "./func/promptBill.js";
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -203,7 +204,7 @@ for (let index = 0; index < arr.length; index++) {
 
 // `))
 // console.log(areBracketsBalanced('({(    )})'))
-console.log(BrCheckAmd(`function comperator(a, b) {
+// console.log(BrCheckAmd(`function comperator(a, b) {
 //     return a - b;
 // };
 
@@ -214,3 +215,4 @@ console.log(BrCheckAmd(`function comperator(a, b) {
 
 
 // `));
+console.log(printBill())
