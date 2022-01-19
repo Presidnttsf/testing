@@ -87,10 +87,7 @@ import { BrCheckAmd } from "./func/BracketCheckAmd.js";
 // console.log(simCheck())
 // console.log(GuessNum())
 // console.log(DOY())
-// console.log(printFullName(USERDATA))
-// let count = printFullName(USERDATA)
-// console.log(count.length)
-// console.log(SingleUserFullName(USERDATA[0]))
+// console.log(printFullName(USERDATA[40]))
 let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
 // console.log(filteredUsers)
 

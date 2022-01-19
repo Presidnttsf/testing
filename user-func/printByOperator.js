@@ -9,7 +9,6 @@ export function printOperator(users, company) {
         const element = users[index];
         if (element.mobile.startsWith(obj[company.toLowerCase()]))
             usersMobile.push(element)
-
     }
     return usersMobile;
 }
