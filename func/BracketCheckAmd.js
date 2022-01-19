@@ -7,8 +7,8 @@ export function BrCheckAmd(string) {
         '{': '}',
 
     }
-    let openArr = Object.keys;
-    let closeArr = Object.values;
+    let openArr = Object.keys(obj);
+    let closeArr = Object.values(obj);
     let stack = [];
     for (let index = 0; index < string.length; index++) {
         const e = string[index];
@@ -22,6 +22,8 @@ export function BrCheckAmd(string) {
         }
 
     }
-    return stack.length === 0;
+    if (stack.length === 0) {
+        return true;
+    } else { return false }
 
-}
+};

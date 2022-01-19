@@ -194,19 +194,19 @@ for (let index = 0; index < arr.length; index++) {
 // }
 // console.log(array1)
 
-console.log(checkBrackets(`function comperator(a, b) {
-    return a - b;
-};
+// console.log(checkBrackets(`function comperator(a, b) {
+// return a - b;
+// };
 
-export function SortedArr(arr) {
-    let sortedarray = arr.sort(comperator);
-    return sortedarray;
-};
+// export function SortedArr(arr) {
+//     let sortedarray = arr.sort(comperator);
+//     return sortedarray;
+// };
 
 
-`))
+// `))
 // console.log(areBracketsBalanced('({(    )})'))
-// // console.log(BrCheckAmd(`function comperator(a, b) {
+console.log(BrCheckAmd(`function comperator(a, b) {
 //     return a - b;
 // };
 
