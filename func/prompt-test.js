@@ -15,3 +15,4 @@ export function promptTest() {
         console.log('User name is', userName, age, today.getFullYear() - Number(age));
     }
 }
+
