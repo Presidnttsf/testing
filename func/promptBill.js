@@ -19,10 +19,10 @@ export function printBill() {
     }
     let gst = productTotal * 0.18;
     let totalWithGst = productTotal + gst
-    if (productTotal >= 5000) {
-        discount = totalWithGst - (productTotal * 0.10)
-    }
 
+    if (productTotal >= 5000) {
+        discount += totalWithGst - (productTotal * 0.10)
+    }
 
 
     console.log(collectionOfProduct)
@@ -40,8 +40,11 @@ export function printBill() {
         const element = collectionOfProduct[index];
         console.log(element.name, " \t\t", element.price, " \t\t", element.Qty, " \t\t", element.Qty * element.price);
     }
-    console.log(" \t\t", " \t\t", "Total: \t", productTotal);
-    console.log(" \t\t", " \t\t", "GST 18%: \t", gst);
-    console.log(" \t\t", " \t\t", "Grand Total: \t", totalWithGst);
+    console.log(" \t\t", " \t\t", "Total: \t", productTotal.toFixed(2));
+    console.log(" \t\t", " \t\t", "GST 18%: \t", gst.toFixed(2));
+
+    console.log(" \t\t", " \t\t", "Grand Total: \t", totalWithGst.toFixed(2));
+    console.log(" \t\t", " \t\t", "Discount 10%: \t", '-', (productTotal * 0.10).toFixed(2));
+    console.log(" \t\t", " \t\t", "Discounted amount: ", discount.toFixed(2));
 }
 

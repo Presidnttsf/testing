@@ -1,5 +1,5 @@
 export function countnumber(n) {
-    let count = 0
+    let count = 0;
     while (n > 0) {
 
         count++
@@ -9,6 +9,5 @@ export function countnumber(n) {
     return count
 }
 
-
-
+// LHS = RHS
 

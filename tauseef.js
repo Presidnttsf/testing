@@ -45,6 +45,7 @@ import { checkBrackets } from "./func/bracketByObject.js";
 import { BrCheckAmd } from "./func/BracketCheckAmd.js";
 import { printBill } from "./func/promptBill.js";
 
+// console.log('count', countnumber(123456));
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
 // console.log(Greet("Tauseef", 23));
@@ -215,4 +216,75 @@ for (let index = 0; index < arr.length; index++) {
 
 
 // `));
-console.log(printBill())
+// console.log(printBill());
+
+// function addition(x, y) {
+//     return a + b;
+// }
+
+
+
+// let array = ['shoeb', 2, 3, true, false, '8', 'farhan'];
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+//     // console.log(index, element);
+// }
+
+// console.log(array);
+
+
+let string = "I am tauseef akhtar.";
+// console.log(string[6]);
+// console.log(string.length);
+
+
+let string1 = "12345";
+
+let obj1 = {
+    name: 'tauseef',
+    age: 29,
+    experience: 7,
+    address: 'Timki, Nagpur',
+};
+
+let obj2 = {
+    name: 'farhan',
+    age: 31,
+    experience: 8,
+    address: 'Mominpura, Nagpur',
+};
+let obj3 = {
+    name: 'Shoeb',
+    age: 25,
+    experience: 5,
+    address: 'Bhankheda, Nagpur',
+};
+
+
+let details = [obj1.age, obj2.age, obj3.age];
+// console.log(details)
+// console.log(string1);
+// console.log(obj1);
+// console.log(obj2);
+
+
+
+let farhan = [2, 3, 7, 8, true, 'abc']
+
+console.log('check', farhan[0]);
+console.log('1', farhan[1]);
+console.log(farhan[2]);
+console.log(farhan[3]);
+console.log(farhan[4]);
+console.log(farhan[5]);
+
+// for (let index = 0; index < farhan.length; index++) {
+//     const element = farhan[index];
+//     console.log(index, element);
+// }
+
+
+
+
+
+
