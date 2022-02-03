@@ -11,6 +11,7 @@ export function getUniqueDomain(users) {
         } else {
             s.add("." + domainArr[1])
         }
+
     }
     return s;
 }

@@ -10,7 +10,7 @@ export function RemoveDup(arr) {
 
     }
 
-    console.log(SelectSort(filter));
+    return filter;
 }
 
 

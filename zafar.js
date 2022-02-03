@@ -7,21 +7,7 @@
 // console.log(numberIsOdd(3))
 // console.log(numberOfLegs(3, 4, 4));
 
-// import { checkingBracket } from "./user-func/checkingBracket.js";
 
 
 
-
-
-// console.log(checkingBracket('{(])})'))
-
-
-
-
-
-
-import prompt_sync from "prompt-sync";
-
-const prompt = prompt_sync({ sigint: true });
-//With readline
 

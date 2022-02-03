@@ -8,7 +8,3 @@ export function countnumber(n) {
     }
     return count
 }
-
-
-
-

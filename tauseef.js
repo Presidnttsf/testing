@@ -43,7 +43,13 @@ import { printOperator } from "./user-func/printByOperator.js";
 import { areBracketsBalanced } from "./func/bracketCheck.js";
 import { checkBrackets } from "./func/bracketByObject.js";
 import { BrCheckAmd } from "./func/BracketCheckAmd.js";
+<<<<<<< HEAD
 import { printBill } from "./func/promptBill.js";
+import { printJhoomar } from "./func/get-jhoomar.js";
+import { print90Triangle } from "./func/get-90triangle.js";
+import { printPyramid } from "./func/get-pyramid.js";
+=======
+>>>>>>> 9cb86cc0806c43b8ee462e0ee215c6876e8f27dc
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -80,7 +86,7 @@ import { printBill } from "./func/promptBill.js";
 
 // let encryptout = Encrypt('tauseef', 3);
 // console.log(Decrypt(encryptout, 3))
-// console.log(promptTest())
+console.log(promptTest())
 // console.log(findLonely([-5, 6, 4, 3, -6, -4, 5, 15, -14, 14, -15, 2]))
 // console.log(RemoveDup([5, 6, 4, 3, 6, 4, 5, 6, 1, 2, 5]))
 // console.log(RemoveDupSet([5, 6, 4, 3, 6, 4, 5, 9, 8, 6, 5, 1]))
@@ -88,9 +94,12 @@ import { printBill } from "./func/promptBill.js";
 // console.log(simCheck())
 // console.log(GuessNum())
 // console.log(DOY())
-// console.log(printFullName(USERDATA[40]))
-let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
-// console.log(filteredUsers)
+// // console.log(printFullName(USERDATA))
+// // let count = printFullName(USERDATA)
+// // console.log(count.length)
+// // console.log(SingleUserFullName(USERDATA[0]))
+// let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
+// // console.log(filteredUsers)
 
 
 // let emailCountcom = printEmail(USERDATA, '.com')
@@ -146,19 +155,19 @@ let filteredUsers = printGenderWise(USERDATA, 'genderfluid')
 
 
 
-// console.log(pritnKey(USERDATA, "gender"))
-// console.log([...getUniqueDomain(USERDATA)])
-let arr = [...getUniqueDomain(USERDATA)];
-let total = 0;
+// // console.log(pritnKey(USERDATA, "gender"))
+// // console.log([...getUniqueDomain(USERDATA)])
+// let arr = [...getUniqueDomain(USERDATA)];
+// let total = 0;
 
-for (let index = 0; index < arr.length; index++) {
-    const element = arr[index];
-    let out = printEmail(USERDATA, element);
-    // console.log(element, ':', out.length);
-    total += out.length
+// for (let index = 0; index < arr.length; index++) {
+//     const element = arr[index];
+//     let out = printEmail(USERDATA, element);
+//     // console.log(element, ':', out.length);
+//     total += out.length
 
 
-}
+// }
 // console.log(total)
 
 // let CheckArr = [9, 64, 25]
@@ -190,21 +199,9 @@ for (let index = 0; index < arr.length; index++) {
 //     console.log(index)
 
 // }
-// console.log(array1)
+// // console.log(array1)
 
 // console.log(checkBrackets(`function comperator(a, b) {
-// return a - b;
-// };
-
-// export function SortedArr(arr) {
-//     let sortedarray = arr.sort(comperator);
-//     return sortedarray;
-// };
-
-
-// `))
-// console.log(areBracketsBalanced('({(    )})'))
-// console.log(BrCheckAmd(`function comperator(a, b) {
 //     return a - b;
 // };
 
@@ -214,5 +211,21 @@ for (let index = 0; index < arr.length; index++) {
 // };
 
 
-// `));
-console.log(printBill())
+// `))
+// console.log(BrCheckAmd("()"));
+// // console.log(BrCheckAmd(`function comperator(a, b) {
+//     return a - b;
+// };
+
+
+
+
+
+
+
+// console.log(printBill());
+console.log('This is a Jhoomar') + printJhoomar(10);
+console.log('   ');
+console.log('This is a 90Triangle') + print90Triangle(5);
+console.log('   ');
+console.log('This is a Pyramid') + printPyramid(6);

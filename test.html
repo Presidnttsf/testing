@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta hmarksp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // var qasim = "hi "
+        // var qasim = "hello"
+        // document.write(qasim);
+        // // output hello
+
+        // let qasim = "hi "
+        // let qasim = "heloo"
+        // document.write(qasim);
+        // // output error
+
+        // var y = "d"  //string
+        // y = 3;  //number
+        // y = false  //bolen
+        // y = ["HTML", 'SCC', "JS"]  //aray
+        // y = { name: "Yaho Baba", country: 9 }  //object
+        // document.write(y)
+        // document.write(typeof y) //bolean
+
+        // var a = 10
+        // var b = 20
+        // var c = a + b
+        // document.write(c) //c=30
+        // c++
+        // document.write(c) //c=31
+        // c--
+        // document.write(c) //c=31
+
+        // console.time("Test")
+        // // console.log([1, 2])
+        // // console.table([1, 2])
+
+
+        // // console.warn('this is warning')
+        // // console.error('this error')
+        // // console.clear()
+        // console.timeEnd("Test")
+
+
+        // ==
+        // ===
+        // !=
+        // !===
+        // >
+        // <
+        // >=
+        // <=
+
+
+
+        // var a = 10
+        // var b = 20
+        // console.log(a > b) //false
+        // console.log(2 != 3) //true)
+
+        // var a = 200
+        // var b = 200
+        // if (a == b) {
+        //     // document.write("yesssss")
+        //     console.log("yesssss")
+        // }
+
+
+        //logical AND
+        // var age = 20
+        // if (age >= 18 && age <= 21) {
+        //     document.write("u are eligible")
+        // }
+
+
+        // logical OR
+        // var a = 101
+        // var b = 199
+        // if (a >= 100 || b <= 200) {
+        //     document.write('yes u are in')
+        // }
+
+        //logical NOT
+        // var a = 100
+        // if (!a == 100) {
+        //     console.log('yes u are in')
+        // }
+
+        // var a = 100
+        // console.log(!a >= 100) //false
+
+
+
+        //IF ELSE STATEMENT
+        // var x = "100"
+        // if (x === 100) {
+        //     document.write("x is alright")
+        // } else {
+        //     document.write("x is not same")
+        // }
+        // //x is not same
+
+        // var name = "Qasim"
+        // var gender = "Male"
+        // if (gender == "Male") {
+        //     document.write("Hello Mr." + name)  //+ is called contatination
+        // } else {
+        //     document.write("Hello Miss." + name)
+
+        // }
+        // //o/p Hello Mr.Qasim
+
+
+        //IF ELSE IF
+
+        // var marks = 2
+        // if (marks >= 75 && marks < 100) {
+        //     document.write("Grad is A")
+        // } else if (marks >= 50 && marks < 75) {
+        //     document.write("Grad is B")
+        // } else if (marks >= 25 && marks < 50) {
+        //     document.write("Grad is C")
+        // } else if (marks >= 0 && marks < 25) {
+        //     document.write("Grad is D")
+        // }
+        // else {
+        //     document.write("Enter Valid Number")
+        // }
+
+
+        // Ternoty Operator
+        // var a = 150
+        // var b
+        // (a == 100) ? b = "True" : b = "False";
+        // document.write(b)
+
+        // var a = 150
+        // var b
+        // b = "Value is " + (a == 100 ? "True" : "FALSE");
+        // document.write(b)
+
+        //switch case
+
+        // var day = 10
+        // switch (day) {
+        //     case 0:
+        //         document.write("Today is monday")
+        //         break;
+        //     case 1:
+        //         document.write("Today is tuesdays")
+        //         break
+        //     case 2:
+        //         document.write("Today is thersday")
+        //         break
+        //     default:
+        //         document.write("Today is ")
+        // }
+
+
+        //switch case
+        // var day = 2
+        // switch (day) {
+        //     case 0: case 1:
+        //         document.write("Today is monday")
+        //         break;
+
+        //     case 2:
+        //         document.write("Today is thersday")
+        //         break
+        //     default:
+        //         document.write("Today is ")
+        // }
+
+        // var age = 15
+        // switch (true) {
+        //     case (age >= 10 && age <= 20):
+        //         document.write("u r eligible")
+        //         break;
+        //     default:
+        //         document.write("Enter valid age")
+        // }
+
+        // var a = 10
+        // var b = 20
+        // if (a > b) {
+        //     alert("a is greater " + "always ")
+        // }
+        // else {
+        //     alert("b is greater")
+        // }
+
+        // var a = 10
+        // var b = 20
+        // if (a > b) {
+        //     alert(a)
+        // } else {
+        //     alert(b)
+        // }
+
+        //confirm box
+
+        // var a = confirm("fhhbrjh")
+        // alert(a)  // true false
+
+        // var a = confirm("how are you")
+        // if (a) {
+        //     alert("hi")
+        // } else {
+        //     alert("hello")
+        // }
+
+        //PROMPT
+
+        // prompt("yahoo")
+
+        // var a = prompt("what is your name")
+        // alert(a)
+
+        var marks = prompt("enter marks")
+        if (marks >= 75 && marks < 100) {
+            document.write("Grad is A")
+        } else if (marks >= 50 && marks < 75) {
+            document.write("Grad is B")
+        } else if (marks >= 25 && marks < 50) {
+            document.write("Grad is C")
+        } else if (marks > 0 && marks < 25) {
+            document.write("Grad is D")
+        }
+        else {
+            document.write("Enter Valid Number")
+        }
+
+        number("1020")
+        document.write(number)
+
+
+
+
+        // 1-FUNCTION WITHOUT  PERAMATER WITHOUT RETURN
+        // function yahoo() {
+        //     document.write("hELLO")
+        // }
+        // yahoo()
+
+        // 2-FUNCTION WITH PERAMATER WITHOUT RETURN
+        // function Qasim(a) {
+        //     var x = a * 1000
+        //     document.write(x)
+        // }
+        // Qasim(20)
+
+        // function hello(fname, lname) {
+        //     document.write("Heloo " + fname + lname)
+        // }
+        // hello("Abdul ", "Qasim")
+
+        // function hello(fname = "First Name ", lname = "Last Name") {
+        //     document.write("Heloo  " + fname + " " + lname)
+        // }
+        // hello("Abdul", "Qasim")
+
+        // 3-FUNCTION WITHOUT PERAMATER WITH RETURN
+
+        // function qasim() {
+        //     return ("Welcome to jumanji")
+        // }
+
+        // var fn = qasim()
+        // document.write(fn)
+
+
+        // // 4-FUNCTION WITH PERAMATER WITH RETURN
+
+        // function helo(fname, lname) {
+        //     var a = fname + lname
+        //     return a
+        // }
+        // var fn = helo("abdul", "qasim")
+        // document.write(fn)
+
+
+
+
+        // function sum(eng, math, sci) {
+        //     var s = eng + math + sci
+        //     return s
+        // }
+        // var fn = sum(20, 15, 30)
+        //  document.write(fn)
+
+        // function percentage(x) {
+        //     var p = x / 300 * 100
+        //     return p
+        // }
+        // document.write(percentage(fn))
+
+
+           // function sum(eng, math, sci) {
+        //     var s = eng + math + sci
+        //     return s
+        // }
+        // var fn = sum(20, 55, 30)
+        // //document.write(fn)
+
+        // function percentage(x) {
+        //     var p = x / 300 * 100
+        //     document.write(p)
+        // }
+        // percentage(fn)
+
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <!-- <h1 id="main">yahoooooooooo</h1> -->
+</body>
+
+</html>

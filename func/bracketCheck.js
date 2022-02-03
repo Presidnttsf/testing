@@ -42,6 +42,7 @@ export function areBracketsBalanced(expr) {
                 break;
         }
     }
+
     // Check Empty Stack
     return (stack.length == 0);
 }
