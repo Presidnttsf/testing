@@ -17,7 +17,9 @@ export function checkBrackets(params) {
             if (matchPairs[lastPop] !== current) {
                 return false;
             }
-        } s
+        }
+
+
     }
 
     return stack.length === 0;
