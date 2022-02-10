@@ -43,13 +43,12 @@ import { printOperator } from "./user-func/printByOperator.js";
 import { areBracketsBalanced } from "./func/bracketCheck.js";
 import { checkBrackets } from "./func/bracketByObject.js";
 import { BrCheckAmd } from "./func/BracketCheckAmd.js";
-<<<<<<< HEAD
-import { printBill } from "./func/promptBill.js";
+
+// import { printBill } from "./func/promptBill.js";
 import { printJhoomar } from "./func/get-jhoomar.js";
 import { print90Triangle } from "./func/get-90triangle.js";
 import { printPyramid } from "./func/get-pyramid.js";
-=======
->>>>>>> 9cb86cc0806c43b8ee462e0ee215c6876e8f27dc
+
 
 // console.log(PON(2, 10));
 // console.log(isSum(2, 3, 5));
@@ -86,7 +85,7 @@ import { printPyramid } from "./func/get-pyramid.js";
 
 // let encryptout = Encrypt('tauseef', 3);
 // console.log(Decrypt(encryptout, 3))
-console.log(promptTest())
+// console.log(promptTest())
 // console.log(findLonely([-5, 6, 4, 3, -6, -4, 5, 15, -14, 14, -15, 2]))
 // console.log(RemoveDup([5, 6, 4, 3, 6, 4, 5, 6, 1, 2, 5]))
 // console.log(RemoveDupSet([5, 6, 4, 3, 6, 4, 5, 9, 8, 6, 5, 1]))
@@ -224,8 +223,8 @@ console.log(promptTest())
 
 
 // console.log(printBill());
-console.log('This is a Jhoomar') + printJhoomar(10);
-console.log('   ');
+// console.log('This is a Jhoomar') + printJhoomar(10);
+// console.log('   ');
 console.log('This is a 90Triangle') + print90Triangle(5);
-console.log('   ');
+// console.log('   ');
 console.log('This is a Pyramid') + printPyramid(6);
