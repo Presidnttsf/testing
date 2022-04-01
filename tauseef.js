@@ -60,8 +60,8 @@ import { printPyramid } from "./func/get-pyramid.js";
 // console.log(circleVSsquare(40, 16));
 // console.log(coffeCup(40));
 // console.log(EntryCheck(19, true, false));
-// console.log(getOperation(17, 4, 21));
-// console.log(PowerOfNumber(2, 10));
+// console.log('getop=', getOperation(17, 4, 21));
+// console.log('PPN =', PowerOfNumber(2, 10));
 // console.log(RotateArray([1, 2, 3, 4, 5]));
 // console.log(RotateArray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]));
 // console.log(numArr(12345));
@@ -154,8 +154,8 @@ import { printPyramid } from "./func/get-pyramid.js";
 
 
 
-// // console.log(pritnKey(USERDATA, "gender"))
-// // console.log([...getUniqueDomain(USERDATA)])
+console.log(pritnKey(USERDATA, "gender"))
+console.log([...getUniqueDomain(USERDATA)])
 // let arr = [...getUniqueDomain(USERDATA)];
 // let total = 0;
 
@@ -225,6 +225,6 @@ import { printPyramid } from "./func/get-pyramid.js";
 // console.log(printBill());
 // console.log('This is a Jhoomar') + printJhoomar(10);
 // console.log('   ');
-console.log('This is a 90Triangle') + print90Triangle(5);
+// console.log('This is a 90Triangle') + print90Triangle(5);
 // console.log('   ');
-console.log('This is a Pyramid') + printPyramid(6);
+// console.log('This is a Pyramid') + printPyramid(6);
