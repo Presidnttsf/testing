@@ -19,3 +19,6 @@ export function Decrypt(data, key) {
     }
     return decryptout;
 }
+
+let a = Encrypt('tauseef akhtar', 58)
+console.log(Decrypt(a, 58))

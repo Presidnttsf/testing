@@ -9,3 +9,4 @@ export function ElementAvg(arr) {
         return avg;
 
 }
+

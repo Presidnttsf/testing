@@ -25,3 +25,4 @@ export function checkBrackets(params) {
     return stack.length === 0;
 
 }
+

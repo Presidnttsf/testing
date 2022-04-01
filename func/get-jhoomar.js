@@ -13,13 +13,13 @@ export function printJhoomar(n) {
     }
 
 
-    for (let index = 0; index < n; index++) {
+    for (let index = 0; index <= n; index++) {
         let space = "";
         let numStr = "";
         for (let j = 0; j <= index; j++) {
             space += " "
         }
-        for (let k = index; k < n; k++) {
+        for (let k = index; k <= n; k++) {
             numStr += k + " "
 
         }
@@ -32,3 +32,4 @@ export function printJhoomar(n) {
 
 }
 
+printJhoomar(9);

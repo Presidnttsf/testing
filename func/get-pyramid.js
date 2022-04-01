@@ -3,7 +3,7 @@ export function printPyramid(n) {
         let space = '';
         let string = '';
         for (let j = i; j <= n; j++) {
-            space += ' '
+            space += '*'
 
         }
         for (let k = 0; k <= i; k++) {
@@ -13,3 +13,5 @@ export function printPyramid(n) {
         console.log(space + string);
     }
 }
+
+printPyramid(9);
